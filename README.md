@@ -33,7 +33,7 @@ Below you can find description of Matlab functions and scripts.
 	Neg is the number of classes of the second class. 
 	
 2. fisher.m This function calculate direction of fisher discriminant and then used oneDClass to find the best threshold and corresponding error. This function also return fisher discriminant direction.
-3. 
+
 4. saveFigures simple save figures to specified folder.
 
 ### Scripts:
