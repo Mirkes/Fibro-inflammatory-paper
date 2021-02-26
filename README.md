@@ -15,7 +15,7 @@ Changes.csv contains changes between the beginning and state after 12 weeks.
 ## Matlab part of project
 Below you can find description of Matlab functions and scripts.
 
-###Functions:
+### Functions:
 1. oneDClass.m applied classification with one input attribute by searching the best threshold. Values that greater than or equal to threshold belongs to one class and Values that are less than threshold belongs to another class. This function calculate the best threshold and corresponding error. The used error measure is 1 - 0.5*(TP/Pos+TN/Neg), where 
 	TP is true positive or the number of correctly recognised classes of the first class, 
 	Pos is the number of classes of the first class,
@@ -32,7 +32,7 @@ Changes.m Form figures for changes of points lokaction before and after 12 weeks
 centreMoves.m Form figures in the plain of changes. Used ChangesFiltered.mat.
 OneDand2D.m form figures for the best one attribute classifiers for each of subgroups; Search the best set of two attributes (the best Fisher discriminant separation), Calculate the full dimensional Fisher’s discriminant, applied dimensionality analysis, draw graph of PCs informativeness. Used Changes.mat or ChangesFiltered.mat.
 
-###Data sets:
+### Data sets:
 Bio.mat is set of demographic and biomarkers data. Fime contains matrix of data (BioData), list of groups 0 for healthy volunteers, 1 for standard care, 2 for exercise, and 3 for MRP (BioGroups), identifiers of participants (BioIDs), and list of attributes (Attrs). 
 CMR.mat is set of demographic and CMR data. Fime contains matrix of data (CMRData), list of groups 0 for healthy volunteers, 1 for standard care, 2 for exercise, and 3 for MRP (CMRGroups), identifiers of participants (CMRIDs), and list of attributes (Attrs). 
 Total.mat is set of demographic, CMR and biomarkers data. Fime contains matrix of data (TotalData), list of groups 0 for healthy volunteers, 1 for standard care, 2 for exercise, and 3 for MRP (TotalGroups), identifiers of participants (TotalIDs), and list of attributes (Attrs). 
