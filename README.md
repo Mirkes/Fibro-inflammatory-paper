@@ -24,7 +24,7 @@ Below you can find description of Matlab functions and scripts.
 2. fisher.m This function calculate direction of fisher discriminant and then used oneDClass to find the best threshold and corresponding error. This function also return fisher discriminant direction.
 3. saveFigures simple save figures to specified folder.
 
-###Scripts:
+### Scripts:
 a_Bio.m Form figures in the space of demographic variables and biomarkers variables. Used Bio.mat.
 a_CMR.m Form figures in the space of demographic variables and CMR variables. Used CMR.mat.
 a_Total.m Form figures in the space of demographic variables, CMR variables and biomerkers variables. Used Total.mat.
