@@ -22,14 +22,12 @@ Changes.csv contains changes between the beginning and state after 12 weeks.
 Below you can find description of Matlab functions and scripts.
 
 ### Functions:
-1. oneDClass.m applied classification with one input attribute by searching the best threshold. Values that greater than or equal to threshold belongs to one class and Values that are less than threshold belongs to another class. This function calculate the best threshold and corresponding error. The used error measure is 1 - 0.5*(TP/Pos+TN/Neg), where 
+1. oneDClass.m applied classification with one input attribute by searching the best threshold. Values that greater than or equal to threshold belongs to one class and Values that are less than threshold belongs to another class. This function calculate the best threshold and corresponding error. The used error measure is 1 - 0.5*(TP/Pos+TN/Neg), where <br>
 
-[&nbsp;&nbsp;&nbsp;]TP is true positive or the number of correctly recognised classes of the first class,<br>
-Pos is the number of classes of the first class,
-	
-	TN is true negative or the number of correctly recognised classes of the second class, 
-	
-	Neg is the number of classes of the second class. 
+<a>&nbsp;&nbsp;&nbsp;TP is true positive or the number of correctly recognised classes of the first class,<br>
+Pos is the number of classes of the first class,<br>	
+	TN is true negative or the number of correctly recognised classes of the second class, <br>	
+	Neg is the number of classes of the second class. <\a>
 	
 2. fisher.m This function calculate direction of fisher discriminant and then used oneDClass to find the best threshold and corresponding error. This function also return fisher discriminant direction.
 
